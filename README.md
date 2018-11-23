@@ -1,0 +1,1 @@
+# sugimotoya-corp-site
