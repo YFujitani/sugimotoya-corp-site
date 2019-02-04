@@ -1157,5 +1157,20 @@ figure {
   border-radius: 7px;
 }
 
+.fh5co-grid-portfolio {
+  height: 302px;
+  background-size: cover;
+  background-position: inherit;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  position: relative;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+}
 
+.introduction {
+  margin-bottom: 90px;
+}
 /*# sourceMappingURL=style.css.map */
