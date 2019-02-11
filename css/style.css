@@ -77,17 +77,17 @@ figure {
 .fh5co-cover,
 .fh5co-hero {
   position: relative;
-  height: 600px;
+  height: 500px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
   .fh5co-hero {
-    height: 600px;
+    height: 500px;
   }
 }
 .fh5co-cover.fh5co-hero-2,
 .fh5co-hero.fh5co-hero-2 {
-  height: 600px;
+  height: 500px;
 }
 .fh5co-cover.fh5co-hero-2 .fh5co-overlay,
 .fh5co-hero.fh5co-hero-2 .fh5co-overlay {
@@ -115,13 +115,10 @@ figure {
 .fh5co-cover {
   background-size: cover;
   position: relative;
-  max-width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: inherit;
+    heifght: inherit;
     padding: 3em 0;
   }
 }
@@ -130,7 +127,7 @@ figure {
   opacity: .9;
 }
 .fh5co-cover.fh5co-cover_2 {
-  height: 600px;
+  height: 500px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover_2 {
@@ -334,7 +331,7 @@ figure {
   z-index: 2;
   display: block;
   float: right;
-  margin-top: 10px;
+  margin-top: 22px;
 }
 #fh5co-menu-wrap .sf-menu a {
   padding: 1em .75em;
@@ -1177,7 +1174,7 @@ figure {
   margin-bottom: 90px;
 }
 
-<<<<<<< HEAD
+
 .about {
   font-size: 16px;
   margin-bottom: 0px;
@@ -1186,9 +1183,13 @@ figure {
 .headline {
   margin-top: 120px;
   margin-bottom: 0px;
-=======
+}
+
 .example {
   margin-bottom: 0.5em;
->>>>>>> before afterのpにクラスを当てる
 }
-/*# sourceMappingURL=style.css.map */
+
+.headline-example {
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
