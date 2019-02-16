@@ -1156,6 +1156,12 @@ figure {
   -ms-border-radius: 7px;
   border-radius: 7px;
 }
+@media screen and (max-width: 768px) {
+  .fh5co-grid-about {
+    height: 440px;
+  }
+}
+
 
 .fh5co-grid-portfolio {
   height: 302px;
@@ -1168,6 +1174,11 @@ figure {
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   border-radius: 7px;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-grid-portfolio {
+    height: 600px;
+  }
 }
 
 .introduction {
