@@ -123,7 +123,14 @@
 
 		} , { offset: '85%' } );
 	};
-	
+
+	var googleMap = function() {
+		console.log(screen.width)
+		var width = screen.width * 0.9;
+		var height = width * 0.666;
+		$('.google-map').css('width', width);
+		$('.google-map').css('height', height);
+	};
 
 	// Document on load.
 	$(function(){
@@ -132,9 +139,12 @@
 		offcanvas();
 		mobileMenuOutsideClick();
 		contentWayPoint();
-		
-
+		googleMap();
 	});
 
+	// Window on resize
+	$(window).on('resize', function() {
+		googleMap();
+	});
 
 }());

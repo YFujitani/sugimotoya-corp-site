@@ -1209,17 +1209,3 @@ figure {
   width: 600px;
   height: 450px;
 }
-
-@media screen and (max-width: 480px) {
-  .google-map {
-    width:  330px;
-    height: 220px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .google-map {
-    width:  270px;
-    height: 180px;
-  }
-}
