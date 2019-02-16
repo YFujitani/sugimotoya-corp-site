@@ -125,7 +125,7 @@
 	};
 
 	var googleMap = function() {
-		console.log(screen.width)
+		if (screen.width > 768) return;
 		var width = screen.width * 0.9;
 		var height = width * 0.666;
 		$('.google-map').css('width', width);
