@@ -1204,3 +1204,22 @@ figure {
   margin-top: 90px;
   margin-bottom: 30px;
 }
+
+.google-map {
+  width: 600px;
+  height: 450px;
+}
+
+@media screen and (max-width: 480px) {
+  .google-map {
+    width:  330px;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .google-map {
+    width:  270px;
+    height: 180px;
+  }
+}
