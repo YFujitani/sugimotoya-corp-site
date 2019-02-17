@@ -1185,6 +1185,11 @@ figure {
     height: 600px;
   }
 }
+@media screen and (max-width: 480px) {
+  .fh5co-grid-portfolio {
+    height: 302px;
+  }
+}
 
 .introduction {
   margin-bottom: 90px;
