@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.8;
 }
 
-br.index-heading {
+br.smartphone-line-brake {
   display: none;
 }
 
@@ -65,7 +65,7 @@ br.index-heading {
   h3 {
     font-size: 19px;
   }
-  br.index-heading {
+  br.smartphone-line-brake {
     display: block;
   }
 }
@@ -106,9 +106,21 @@ figure {
     height: 600px;
   }
 }
+@media screen and (max-width: 480px) {
+  .fh5co-cover,
+  .fh5co-hero {
+    height: calc(0.66666 * 480px);
+  }
+}
 .fh5co-cover.fh5co-hero-2,
 .fh5co-hero.fh5co-hero-2 {
   height: 600px;
+}
+@media screen and (max-width: 480px) {
+  .fh5co-cover.fh5co-hero-2,
+  .fh5co-hero.fh5co-hero-2 {
+    height: calc(0.66666 * 480px);
+  }
 }
 .fh5co-cover.fh5co-hero-2 .fh5co-overlay,
 .fh5co-hero.fh5co-hero-2 .fh5co-overlay {
@@ -155,6 +167,12 @@ figure {
 .fh5co-cover.fh5co-cover_2 {
   height: 600px;
 }
+@media screen and (max-width: 480px) {
+  .fh5co-cover.fh5co-cover_2 {
+    height: calc(0.66666 * 480px);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover_2 {
     heifght: inherit;
