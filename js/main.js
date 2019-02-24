@@ -132,14 +132,6 @@
 		$('.google-map').css('height', height);
 	};
 
-	var keyVisual = function () {
-		if (screen.width > 480) return;
-		var width = screen.width;
-		var height = width * 0.666;
-		$('.fh5co-cover,.fh5co-hero').css('height', height);
-		// $('.google-map').css('height', height);
-	};
-
 	// Document on load.
 	$(function(){
 		mainMenu();
@@ -148,13 +140,11 @@
 		mobileMenuOutsideClick();
 		contentWayPoint();
 		googleMap();
-		// keyVisual();
 	});
 
 	// Window on resize
 	$(window).on('resize', function() {
 		googleMap();
-		// keyVisual();	
 	});
 
 }());
