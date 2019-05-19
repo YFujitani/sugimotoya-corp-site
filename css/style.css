@@ -133,46 +133,6 @@ figure {
   z-index: 1;
   background: rgba(66, 64, 64, 0.8);
 }
-.b-plus-banner {
-  position: relative;
-  height: 400px;
-}
-@media screen and (max-width: 768px) {
-  .fh5co-cover,
-  .b-plus-banner {
-    height: 400px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .fh5co-cover,
-  .b-plus-banner {
-    height: calc(0.27272 * 100vw);
-  }
-}
-
-.fh5co-cover.b-plus-banner-2,
-.b-plus-banner.b-plus-banner-2 {
-  height: 400px;
-}
-
-@media screen and (max-width: 480px) {
-  .fh5co-cover.b-plus-banner-2,
-  .b-plus-banner.b-plus-banner-2 {
-  }
-}
-
-.fh5co-cover.b-plus-banner-2 .fh5co-overlay,
-.b-plus-banner.b-plus-banner-2 .fh5co-overlay {
-  position: absolute !important;
-  width: 100%;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-  background: rgba(66, 64, 64, 0.8);
-}
 
 .fh5co-overlay {
   position: absolute !important;
@@ -603,19 +563,6 @@ figure {
     height: 400px;
   }
 }
-/* .b-plus-banner .image-popup {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  border-radius: 7px;
-} */
 .fh5co-grid .image-popup {
   position: absolute;
   top: 0;
@@ -1315,4 +1262,21 @@ figure {
 
 .sevice-list {
   margin-bottom: 1em;
+}
+
+.b-plus-banner {
+  position: relative;
+  height: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .b-plus-banner {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .b-plus-banner {
+    height: calc(0.27272 * 100vw);
+  }
 }
