@@ -576,6 +576,7 @@ figure {
   -ms-border-radius: 7px;
   border-radius: 7px;
 }
+
 .fh5co-grid .image-popup .prod-title {
   position: absolute;
   top: 50%;
@@ -1261,4 +1262,21 @@ figure {
 
 .sevice-list {
   margin-bottom: 1em;
+}
+
+.b-plus-banner {
+  position: relative;
+  height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .b-plus-banner {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .b-plus-banner {
+    height: calc(0.27272 * 100vw);
+  }
 }
