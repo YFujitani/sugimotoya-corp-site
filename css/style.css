@@ -253,44 +253,31 @@ figure {
   font-size: 18px;
   border-bottom: none !important;
 }
-.sf-menu a:hover, .sf-menu a:focus {
+.sf-menu a:hover,
+.sf-menu a:focus {
   color: #fff !important;
 }
 
-.sf-menu li.active a:hover, .sf-menu li.active a:focus {
+.sf-menu li.active a:hover,
+.sf-menu li.active a:focus {
   color: #fff;
 }
 
 .sf-menu li,
-.sf-menu ul li,
-.sf-menu ul ul li,
+.sf-menu ul,
 .sf-menu li:hover,
 .sf-menu li.sfHover {
   background: transparent;
 }
 
-.sf-menu ul li a,
-.sf-menu ul ul li a {
+.sf-menu ul li a {
   text-transform: none;
   padding: 0.25em 1em !important;
   letter-spacing: 1px;
 }
 
-.sf-menu li:hover a,
-.sf-menu li.sfHover a,
-.sf-menu ul li:hover a,
-.sf-menu ul li.sfHover a,
 .sf-menu li.active a {
   color: #fff;
-}
-
-.sf-menu ul li:hover,
-.sf-menu ul li.sfHover {
-  background: transparent;
-}
-
-.sf-menu ul li {
-  background: transparent;
 }
 
 .sf-arrows .sf-with-ul {
