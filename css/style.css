@@ -270,13 +270,15 @@ figure {
   background: transparent;
 }
 
-.sf-menu ul li a,{
+.sf-menu ul li a {
   text-transform: none;
   padding: 0.25em 1em !important;
   letter-spacing: 1px;
 }
 
-
+.sf-menu li.active a {
+  color: #fff;
+}
 
 .sf-arrows .sf-with-ul {
   padding-right: 2.5em;
