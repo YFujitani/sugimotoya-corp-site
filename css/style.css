@@ -226,22 +226,22 @@ figure {
 }
 
 /* Superfish Override Menu */
-.sf-menu {
+#nav {
   margin: 0 !important;
 }
 
-.sf-menu {
+#nav {
   float: right;
 }
 
-.sf-menu ul {
+#nav ul {
   box-shadow: none;
   border: transparent;
   min-width: 12em;
   *width: 12em;
 }
 
-.sf-menu a {
+#nav a {
   color: rgba(255, 255, 255, 0.5);
   padding: 0.75em 1em !important;
   font-weight: normal;
@@ -253,31 +253,36 @@ figure {
   font-size: 18px;
   border-bottom: none !important;
 }
-.sf-menu a:hover,
-.sf-menu a:focus {
+#nav a:hover,
+#nav a:focus {
   color: #fff !important;
 }
 
-.sf-menu li.active a:hover,
-.sf-menu li.active a:focus {
+#nav li.active a:hover,
+#nav li.active a:focus {
   color: #fff;
 }
 
-.sf-menu li,
-.sf-menu ul,
-.sf-menu li:hover,
-.sf-menu li.sfHover {
+#nav li,
+#nav ul,
+#nav li:hover,
+#nav li.sfHover {
   background: transparent;
 }
 
-.sf-menu ul li a {
+#nav ul li a {
   text-transform: none;
   padding: 0.25em 1em !important;
   letter-spacing: 1px;
 }
 
-.sf-menu li.active a {
+#nav li.active a {
   color: #fff;
+}
+
+#nav li {
+  display: inline;
+  list-style: none;
 }
 
 .sf-arrows .sf-with-ul {
@@ -362,9 +367,9 @@ figure {
   z-index: 2;
   display: block;
   float: right;
-  margin-top: 10px;
+  margin-top: 20px;
 }
-#fh5co-menu-wrap .sf-menu a {
+#fh5co-menu-wrap #nav a {
   padding: 1em .75em;
 }
 
