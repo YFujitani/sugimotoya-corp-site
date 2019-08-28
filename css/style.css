@@ -243,7 +243,7 @@ figure {
 
 .menu a {
   color: rgba(255, 255, 255, 0.5);
-  padding: 0.75em 0.897em !important;
+  padding: 0.75em 1em !important;
   font-weight: normal;
   border-left: none;
   border-top: none;
@@ -253,6 +253,12 @@ figure {
   font-size: 18px;
   border-bottom: none !important;
 }
+
+.menu a {
+  display: inline-block;
+  position: relative;
+}
+
 .menu a:hover,
 .menu a:focus {
   color: #fff !important;
@@ -333,7 +339,7 @@ figure {
   z-index: 2;
   display: block;
   float: right;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #fh5co-menu-wrap .menu a {
   padding: 1em .75em;
