@@ -1267,3 +1267,8 @@ figure {
     height: calc(0.27272 * 100vw);
   }
 }
+
+.table-borderless td,
+.table-borderless th {
+  border-top: none;
+}
