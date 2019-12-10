@@ -1272,3 +1272,19 @@ figure {
 .table-borderless th {
   border-top: none;
 }
+
+.renovation-proposal {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.renovation-proposal > tbody > tr > td {
+  border-top: none;
+  width: 33.333%;
+}
+
+.renovation-proposal > tbody > tr > td.arrow {
+  color: #ff00008c;
+  font-weight: bold;
+  padding: 0px;
+}
