@@ -1268,14 +1268,11 @@ figure {
   }
 }
 
-.table-borderless td,
-.table-borderless th {
-  border-top: none;
-}
-
 .renovation-proposal {
   text-align: center;
   margin: 40px 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .renovation-proposal > tbody > tr > td {
