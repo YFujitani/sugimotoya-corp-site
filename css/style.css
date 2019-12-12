@@ -1278,6 +1278,14 @@ figure {
 .renovation-proposal > tbody > tr > td {
   border-top: none;
   width: 33.333%;
+  padding: 8px 0;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .renovation-proposal > tbody > tr > td {
+    font-size: 18px;
+  }
 }
 
 .renovation-proposal > tbody > tr > td.arrow {
