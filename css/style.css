@@ -1267,3 +1267,29 @@ figure {
     height: calc(0.27272 * 100vw);
   }
 }
+
+.renovation-proposal {
+  text-align: center;
+  margin: 40px 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.renovation-proposal > tbody > tr > td {
+  border-top: none;
+  width: 33.333%;
+  padding: 8px 0;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .renovation-proposal > tbody > tr > td {
+    font-size: 18px;
+  }
+}
+
+.renovation-proposal > tbody > tr > td.arrow {
+  color: #ff00008c;
+  font-weight: bold;
+  padding: 0px;
+}
