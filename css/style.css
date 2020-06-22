@@ -225,21 +225,6 @@ figure {
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
 
-/* Superfish Override Menu */
-.menu {
-  margin: 0 !important;
-}
-
-.menu {
-  float: right;
-}
-
-.menu ul {
-  box-shadow: none;
-  border: transparent;
-  min-width: 12em;
-  *width: 12em;
-}
 
 .menu a {
   color: rgba(255, 255, 255, 0.5);
@@ -276,12 +261,6 @@ figure {
   background: transparent;
 }
 
-.menu ul li a {
-  text-transform: none;
-  padding: 0.25em 1em !important;
-  letter-spacing: 1px;
-}
-
 .menu li.active a {
   color: #fff;
 }
@@ -291,7 +270,9 @@ figure {
   list-style: none;
 }
 
-
+.menu li:last-child {
+  padding-right: 2em;
+}
 
 #fh5co-header-section {
   padding: 0;
@@ -468,19 +449,12 @@ figure {
   color: #FCC72C !important;
 }
 
-#fh5co-work-section,
-#fh5co-services-section,
-#fh5co-content-section,
-#fh5co-work-section_2,
-#fh5co-blog-section {
+#fh5co-work-section {
   padding: 7em 0;
 }
+
 @media screen and (max-width: 768px) {
-  #fh5co-work-section,
-  #fh5co-services-section,
-  #fh5co-content-section,
-  #fh5co-work-section_2,
-  #fh5co-blog-section {
+  #fh5co-work-section {
     padding: 4em 0;
   }
 }
