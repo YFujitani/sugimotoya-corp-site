@@ -270,10 +270,6 @@ figure {
   list-style: none;
 }
 
-.menu li:last-child {
-  padding-right: 2em;
-}
-
 #fh5co-header-section {
   padding: 0;
   position: absolute;
