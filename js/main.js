@@ -156,9 +156,15 @@
 	 ];
 	 let currentIndex =0;
 
-	const main = document.getElementById('main');
-	main.style.backgroundImage = images[currentIndex];
+	 function slideImage() {
+		 if(currentIndex === (images.length - 1)) {
+			 currentIndex = 0;
+		 }
+	 }
+	document.getElementById('main').style.backgroundImage = images[currentIndex];
+  currentIndex++;
 	
-}
+	setInterval(slideImage, 3000);
+	}
 
 }());
