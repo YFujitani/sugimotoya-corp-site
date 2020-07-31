@@ -147,24 +147,21 @@
 		googleMap();
 	});
 
-	{
-		
-	 const images = [
-		"url(images/keyvisual.JPG)",
-		"url(images/photographic_portrait.JPG)",
-		"url(images/portfolio_apartment_entrance.JPG)",
-	 ];
-	 let currentIndex =0;
-
-	 function slideImage() {
-		 if(currentIndex === (images.length - 1)) {
-			 currentIndex = 0;
-		 }
-	 }
-	document.getElementById('main').style.backgroundImage = images[currentIndex];
-  currentIndex++;
 	
-	setInterval(slideImage, 3000);
-	}
+		
+	var images = [
+		"url(images/keyvisual.JPG)",
+		"url(https://placehold.jp/30/3d4070/ffffff/1620x1080.jpg)",
+		"url(https://placehold.jp/30/f0e54d/ffffff/1620x1080.jpg)"
+	];
+	var currentIndex = 0;
 
+	function slideImage() {
+		if (currentIndex++ === (images.length - 1)) {
+			currentIndex = 0;
+		}
+		document.getElementById('main').style.backgroundImage = images[currentIndex];
+	};
+
+	setInterval(slideImage, 3000);
 }());

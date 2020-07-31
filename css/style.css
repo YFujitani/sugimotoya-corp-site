@@ -1294,6 +1294,7 @@ figure {
   padding: 0px;
 }
 
-/* .fh5co-cover text-center #main {
+#main {
   transition: background-image 2.5s ease;
-} */
+  background-image: url(../images/keyvisual.JPG);
+}
