@@ -147,7 +147,7 @@ figure {
 
 .fh5co-cover {
   background-size: cover;
-  position: relative;
+  /* position: relative; */
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
