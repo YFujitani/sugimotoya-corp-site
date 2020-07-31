@@ -11,6 +11,8 @@
 *	Edit this section
 *
 * ======================================================= */
+-webkit-transform-style: preserve-3d;
+
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   line-height: 1.8;
@@ -147,11 +149,10 @@ figure {
 
 .fh5co-cover {
   background-size: cover;
-  /* position: relative; */
+  position: relative;
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
-  z-index: 1;
 }
 
 @media screen and (max-width: 768px) {
