@@ -157,7 +157,7 @@
 	var currentIndex = 0;
 
 	function slideImage() {
-		if (++currentIndex === (images.length)) {
+		if (++currentIndex === images.length) {
 			currentIndex = 0;
 		}
 		document.getElementById('main').style.backgroundImage = images[currentIndex];
