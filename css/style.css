@@ -1293,3 +1293,7 @@ figure {
   font-weight: bold;
   padding: 0px;
 }
+
+.fh5co-cover text-center #main {
+	transition: backgraound-image 2.5s ease;
+}
