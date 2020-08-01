@@ -147,4 +147,30 @@
 		googleMap();
 	});
 
+	//  keyvisual slideshow
+	jQuery(function($) {
+    	$('#main').bgSwitcher({
+				images:['images/keyvisual.JPG','https://placehold.jp/3d4070/ffffff/1620x1080.jpg','https://placehold.jp/f5ec6a/ffffff/1620x1080.jpg'],
+				interval: 5000,
+				loop: true,
+				shuffle: false,
+				effect: "fade",
+				duration: 500,
+				easing: "swing"
+   		});
+	});
+	
+		
+	//  const images = [
+	// 	"url(images/keyvisual.JPG)",
+	// 	"url(images/photographic_portrait.JPG)",
+	// 	"url(images/portfolio_apartment_entrance.JPG)",
+	//  ];
+	//  let currentIndex =0;
+
+	// const main = document.getElementById('main');
+	// main.style.backgroundImage = images[currentIndex];
+	
+
+
 }());
