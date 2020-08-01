@@ -1295,6 +1295,9 @@ figure {
   padding: 0px;
 }
 
-.fh5co-cover text-center > #main {
-  /* transition: backgraound-image 2.5s ease; */
+.fh5co-cover #main {
+  transition: backgraound-image 2.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
