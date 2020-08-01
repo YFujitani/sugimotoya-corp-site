@@ -150,11 +150,8 @@
 	//  keyvisual slideshow
 	jQuery(function($) {
     	$('#main').bgSwitcher({
-					images: ['images/keyvisual.JPG',
-									 'https://placehold.jp/3d4070/ffffff/1620x1080.jpg',
-									 'https://placehold.jp/f5ec6a/ffffff/1620x1080.jpg'
-									]
-   		 });
+				images:['images/keyvisual.JPG','https://placehold.jp/3d4070/ffffff/1620x1080.jpg','https://placehold.jp/f5ec6a/ffffff/1620x1080.jpg'],
+   		});
 	});
 	
 		
