@@ -1296,5 +1296,5 @@ figure {
 }
 
 .fh5co-cover text-center > #main {
-  transition: backgraound-image 2.5s ease;
+  /* transition: backgraound-image 2.5s ease; */
 }
