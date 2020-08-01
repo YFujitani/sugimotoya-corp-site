@@ -1297,7 +1297,9 @@ figure {
 
 .fh5co-cover #main {
   transition: backgraound-image 2.5s ease;
-  display: flex;
+  width: 100vw;
+  height: 100vh;
+  display: none;
   align-items: center;
   justify-content: center;
 }
