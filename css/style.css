@@ -1296,10 +1296,10 @@ figure {
 }
 
 .fh5co-cover #main {
-  transition: backgraound-image 2.5s ease;
+  /* transition: backgraound-image 2.5s ease; */
   width: 100vw;
   height: 100vh;
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
