@@ -918,7 +918,7 @@ figure {
 }
 
 #fh5co-page {
-  position: relative;
+  /* position: relative; */
   z-index: 99;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
