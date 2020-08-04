@@ -100,6 +100,7 @@ figure {
   /* position: relative; */
   -webkit-backface-visibility: hidden;
   /* width: 100%; */
+  z-index: 1;
   height: 600px;
 }
 @media screen and (max-width: 768px) {
@@ -918,6 +919,7 @@ figure {
 
 #fh5co-page {
   position: relative;
+  z-index: 99;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -1297,7 +1299,7 @@ figure {
 }
 
 #main {
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
