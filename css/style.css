@@ -98,7 +98,7 @@ figure {
 .fh5co-cover,
 .fh5co-hero {
   /* position: relative; */
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   /* width: 100%; */
   z-index: 1;
   height: 600px;
@@ -918,7 +918,7 @@ figure {
 }
 
 #fh5co-page {
-  /* position: relative; */
+  position: relative;
   z-index: 99;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
