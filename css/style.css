@@ -97,7 +97,10 @@ figure {
 
 .fh5co-cover,
 .fh5co-hero {
-  position: relative;
+  /* position: relative; */
+  /* -webkit-backface-visibility: hidden; */
+  /* width: 100%; */
+  z-index: 1;
   height: 600px;
 }
 @media screen and (max-width: 768px) {
@@ -112,18 +115,18 @@ figure {
     height: calc(0.66666 * 100vw);
   }
 }
-.fh5co-cover.fh5co-hero-2,
-.fh5co-hero.fh5co-hero-2 {
+.fh5co-cover
+.fh5co-hero {
   height: 600px;
 }
 @media screen and (max-width: 480px) {
-  .fh5co-cover.fh5co-hero-2,
-  .fh5co-hero.fh5co-hero-2 {
+  .fh5co-cover,
+  .fh5co-hero {
     height: calc(0.66666 * 100vw);
   }
 }
-.fh5co-cover.fh5co-hero-2 .fh5co-overlay,
-.fh5co-hero.fh5co-hero-2 .fh5co-overlay {
+/* .fh5co-cover .fh5co-overlay,
+.fh5co-hero {
   position: absolute !important;
   width: 100%;
   top: 0;
@@ -132,7 +135,7 @@ figure {
   right: 0;
   z-index: 1;
   background: rgba(66, 64, 64, 0.8);
-}
+} */
 
 .fh5co-overlay {
   position: absolute !important;
@@ -147,8 +150,8 @@ figure {
 
 .fh5co-cover {
   background-size: cover;
-  position: relative;
-  max-width: 1140px;
+  /* position: relative; */
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -164,17 +167,17 @@ figure {
   padding: 1em 5em;
   opacity: .9;
 }
-.fh5co-cover.fh5co-cover_2 {
+.fh5co-cover {
   height: 600px;
 }
 @media screen and (max-width: 480px) {
-  .fh5co-cover.fh5co-cover_2 {
+  .fh5co-cover {
     height: calc(0.66666 * 100vw);
   }
 }
 
 @media screen and (max-width: 768px) {
-  .fh5co-cover.fh5co-cover_2 {
+  .fh5co-cover {
     heifght: inherit;
     padding: 3em 0;
   }
@@ -916,6 +919,7 @@ figure {
 
 #fh5co-page {
   position: relative;
+  z-index: 99;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -1292,4 +1296,10 @@ figure {
   color: #ff00008c;
   font-weight: bold;
   padding: 0px;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
