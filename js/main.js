@@ -151,10 +151,14 @@
 	$('#main').bgSwitcher({
 		images: [
 			// 'images/keyvisual.JPG',
-			'https://placehold.jp/69d67b/ffffff/3220x2080.png',
-			'https://placehold.jp/f0b2cf/ffffff/2020x1480.png',
-			'https://placehold.jp/3d4070/ffffff/1620x1080.jpg',
-			'https://placehold.jp/f5ec6a/ffffff/1220x780.jpg'
+			// 'https://placehold.jp/69d67b/ffffff/3220x2080.png',
+			// 'https://placehold.jp/f0b2cf/ffffff/2020x1480.png',
+			// 'https://placehold.jp/3d4070/ffffff/1620x1080.jpg',
+			// 'https://placehold.jp/f5ec6a/ffffff/1220x780.jpg'
+			'images/aoyama_at_work.jpg',
+			'images/momochan_at_work.jpg',
+			'images/takura_at_work.jpg',
+			'images/working_woman.jpg'
 		],
 		interval: 5000,
 	});
