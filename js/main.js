@@ -31,10 +31,6 @@
 
 	};
 
-	// Parallax
-	// var parallax = function() {
-	// 	$(window).stellar();
-	// };
 
 
 	// Offcanvas and cloning of the main menu
@@ -135,7 +131,6 @@
 	// Document on load.
 	$(function(){
 		mainMenu();
-		// parallax();
 		offcanvas();
 		mobileMenuOutsideClick();
 		contentWayPoint();
