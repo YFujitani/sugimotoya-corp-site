@@ -112,18 +112,18 @@ figure {
     height: calc(0.66666 * 100vw);
   }
 }
-.fh5co-cover.fh5co-hero-2,
-.fh5co-hero.fh5co-hero-2 {
+.fh5co-cover,
+.fh5co-hero {
   height: 600px;
 }
 @media screen and (max-width: 480px) {
-  .fh5co-cover.fh5co-hero-2,
-  .fh5co-hero.fh5co-hero-2 {
+  .fh5co-cover,
+  .fh5co-hero {
     height: calc(0.66666 * 100vw);
   }
 }
-.fh5co-cover.fh5co-hero-2 .fh5co-overlay,
-.fh5co-hero.fh5co-hero-2 .fh5co-overlay {
+.fh5co-cover .fh5co-overlay,
+.fh5co-hero .fh5co-overlay {
   position: absolute !important;
   width: 100%;
   top: 0;
