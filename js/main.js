@@ -142,18 +142,18 @@
 		googleMap();
 	});
 
-	{
-		
-	 const images = [
-		"url(images/keyvisual.JPG)",
-		"url(images/photographic_portrait.JPG)",
-		"url(images/portfolio_apartment_entrance.JPG)",
-	 ];
-	 let currentIndex =0;
-
-	const main = document.getElementById('main');
-	main.style.backgroundImage = images[currentIndex];
-	
-}
+	// keyvigual slideshow
+	$('#main').bgswitcher({
+     images: [
+					'images/Chikkun_wearing_glasses_resize_tatenaga.jpg',
+					'images/Momochan_at_work_resize_tatenaga.jpg',
+					'images/Aoyamasan_at_work_tatenaga.jpg',
+					'images/Takurasan_at_work_resize_tatenaga.jpg',
+					'images/Hashimotosan_at_work_resize_tatenaga.jpg',
+					'images/Sugimotoya_woman_staff_resize_tatenaga.jpg',
+					'images/Sugimotoya_staff_resize_tatenaga.jpg'
+		 ],
+		 interval: 5000,
+	});
 
 }());
