@@ -145,13 +145,13 @@
 	// keyvigual slideshow
 	$('#main').bgswitcher({
      images: [
-					'images/Chikkun_wearing_glasses_resize_tatenaga.jpg',
-					'images/Momochan_at_work_resize_tatenaga.jpg',
+					'images/Chikkun_wearing_glasses_resize_yokonaga.jpg',
+					'images/Momochan_at_work.jpg',
 					'images/Aoyamasan_at_work_tatenaga.jpg',
-					'images/Takurasan_at_work_resize_tatenaga.jpg',
-					'images/Hashimotosan_at_work_resize_tatenaga.jpg',
-					'images/Sugimotoya_woman_staff_resize_tatenaga.jpg',
-					'images/Sugimotoya_staff_resize_tatenaga.jpg'
+					'images/Takurasan_at_work_resize_yokonaga.jpg',
+					'images/Hashimotosan_at_work_resize_yokonaga.jpg',
+					'images/Sugimotoya_woman_staff_resize_yokonaga.jpg',
+					'images/Sugimotoya_staff_resize_yokonaga.jpg'
 		 ],
 		 interval: 5000,
 	});
