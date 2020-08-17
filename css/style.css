@@ -112,7 +112,7 @@ figure {
     height: calc(0.66666 * 100vw);
   }
 }
-.fh5co-cover,
+/* .fh5co-cover,
 .fh5co-hero {
   height: 600px;
 }
@@ -121,7 +121,7 @@ figure {
   .fh5co-hero {
     height: calc(0.66666 * 100vw);
   }
-}
+} */
 .fh5co-cover .fh5co-overlay,
 .fh5co-hero .fh5co-overlay {
   /* position: absolute !important; */
