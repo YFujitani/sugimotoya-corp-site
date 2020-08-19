@@ -35,6 +35,10 @@ a:hover {
   color: #FCC72C !important;
 }
 
+.text-center > a {
+  text-decoration: none;
+}
+
 p, ul, ol {
   margin-bottom: 1.5em;
   font-size: 20px;
@@ -55,6 +59,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 30px 0;
   line-height: 1.8;
+}
+
+h3 > span {
+  color: red;
 }
 
 br.smartphone-line-brake {
