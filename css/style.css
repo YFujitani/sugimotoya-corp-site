@@ -35,6 +35,10 @@ a:hover {
   color: #FCC72C !important;
 }
 
+.text-center > a {
+  text-decoration: none;
+}
+
 p, ul, ol {
   margin-bottom: 1.5em;
   font-size: 20px;
