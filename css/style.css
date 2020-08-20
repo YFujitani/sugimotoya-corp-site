@@ -1150,6 +1150,12 @@ figure {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .fh5co-grid-about {
+    height: 440px;
+  }
+}
+
 
 .fh5co-grid-portfolio {
   height: 302px;
