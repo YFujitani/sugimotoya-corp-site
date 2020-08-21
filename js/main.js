@@ -31,10 +31,6 @@
 
 	};
 
-	// Parallax
-	var parallax = function() {
-		$(window).stellar();
-	};
 
 
 	// Offcanvas and cloning of the main menu
@@ -135,7 +131,6 @@
 	// Document on load.
 	$(function(){
 		mainMenu();
-		parallax();
 		offcanvas();
 		mobileMenuOutsideClick();
 		contentWayPoint();
@@ -146,5 +141,19 @@
 	$(window).on('resize', function() {
 		googleMap();
 	});
+
+	{
+		
+	 const images = [
+		"url(images/keyvisual.JPG)",
+		"url(images/photographic_portrait.JPG)",
+		"url(images/portfolio_apartment_entrance.JPG)",
+	 ];
+	 let currentIndex =0;
+
+	const main = document.getElementById('main');
+	main.style.backgroundImage = images[currentIndex];
+	
+}
 
 }());

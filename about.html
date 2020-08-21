@@ -51,18 +51,12 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Superfish -->
-	<link rel="stylesheet" href="css/superfish.css">
-
+	
 	<link rel="stylesheet" href="css/style.css">
 
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
 
 </head>
 
@@ -77,16 +71,13 @@
 							<image src="images/image.jpg" width="200" height="57" id="SUGIMOTOYA logo"><a href="index.html"></a>
 								<!-- START #fh5co-menu-wrap -->
 								<nav id="fh5co-menu-wrap" role="navigation">
-									<ul class="sf-menu" id="fh5co-primary-menu">
-										<li><a href="index.html">ホーム</a></li>
-										<li><a href="example.html">施工事例</a></li>
-										<li class="active">
-											<a href="about.html">SUGIMOTOYAのご紹介</a>
-										</li>
-										<li><a href="pricelist.html">価格表</a></li>
-										<li><a href="access.html">アクセス</a></li>
-										<li><a href="recruit.html">採用</a></li>
-										<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc_Fgq9b6PS65NhVeRgYapkTPnppyCt72YQOrsygNrvfiv5hw/viewform?usp=sf_link" target="_blank">お問い合わせ</a></li>
+									<ul class="menu" id="fh5co-primary-menu">
+										<li><a href="index.html">ホーム</a></li><!--
+										--><li><a href="example.html">施工事例</a></li><!--
+										--><li class="active"><a href="about.html">SUGIMOTOYAのご紹介</a></li><!--
+										--><li><a href="access.html">アクセス</a></li><!--
+										--><li><a href="recruit.html">採用</a></li><!--
+										--><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc_Fgq9b6PS65NhVeRgYapkTPnppyCt72YQOrsygNrvfiv5hw/viewform?usp=sf_link" target="_blank">お問い合わせ</a></li>
 									</ul>
 								</nav>
 						</div>
@@ -96,13 +87,13 @@
 			</div>
 
 
-			<div class="fh5co-hero fh5co-hero-2">
+			<div class="fh5co-hero">
 				<div class="fh5co-overlay"></div>
-				<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/keyvisual.JPG);">
-					<div class="desc animate-box">
-					</div>
+				<div class="fh5co-cover" id="main">
 				</div>
 			</div>
+		</div>
+		<!-- END fh5co-page -->
 			<!-- end:header-top -->
 			<div id="fh5co-about">
 				<div class="container">
@@ -122,9 +113,9 @@
 										</div>
 									</div>
 									<div class="col-md-4 col-md-offset-2">
-										<div class="fh5co-grid-about animate-box" style="background-image: url(images/momochan2.jpg);"></div>
+										<div class="fh5co-grid-about animate-box" style="background-image: url(images/momochan2.JPG);"></div>
 										<div class="animate-box">
-											<p class="about">取締役　杉本もも代<br>空室クリーニングはもちろん、長年の接客業で培った経験を活かし、一般家庭のお宅にもハウスクリーナーとして、明るく元気に訪問します！</p>
+											<p class="about">取締役　杉本もも代<br>クロス貼り・クリーナーとして、長年の接客業で培った経験を活かし、明るく元気に訪問します！</p><br>
 										</div>
 									</div>
 									<div class="col-md-4 col-md-offset-1">
@@ -136,7 +127,19 @@
 									<div class="col-md-4 col-md-offset-2">
 										<div class="fh5co-grid-about animate-box" style="background-image: url(images/takurasan.jpg);"></div>
 										<div class="animate-box">
-											<p class="about">工事部　田倉克祥<br>元塗装職人　塗装工事はもちろん、多能工・ハウスクリーニングもこなすマルチな才能を持ち合わせた若きホープ。</p>
+											<p class="about">工事部　田倉克祥<br>塗装職人。塗装工事だけでなく、木工事・設備工事・クリーニングまでもこなす若き工事部のリーダー。</p>
+										</div>
+									</div>
+									<div class="col-md-4 col-md-offset-1">
+										<div class="fh5co-grid-about animate-box" style="background-image: url(images/Tanakasan_at_work.jpg);"></div>
+										<div class="animate-box">
+											<p class="about">工事部　田中文太<br>屋根職人として10年以上のキャリアを持った外装部のリーダー。屋根だけでなく内装工事もこなします。</p>
+										</div>
+									</div>
+									<div class="col-md-4 col-md-offset-2">
+										<div class="fh5co-grid-about animate-box" style="background-image: url(images/Ogawasan_at_work.jpg);"></div>
+										<div class="animate-box">
+											<p class="about">工事部　小川智江<br>クロス・美装職人。現場では男子顔負けの動きします！女子部隊の親方的存在！家に帰れば2人の子どもを育てる優しい母。</p>
 										</div>
 									</div>
 									<div class="col-md-4 col-md-offset-1">
@@ -146,9 +149,9 @@
 										</div>
 									</div>
 									<div class="col-md-4 col-md-offset-2">
-										<div class="fh5co-grid-about animate-box" style="background-image: url(images/jimu2.jpg);"></div>
+										<div class="fh5co-grid-about animate-box" style="background-image: url(images/hashimotosan.jpg);"></div>
 										<div class="animate-box">
-											<p class="about">事務員兼ハウスクリーナー<br>橋本祥子<br>ハウスクリーナーとして現場に出るだけでなく、雑工事や事務作業を元気にこなしてくれる、パワフルワーキングママ</p>
+											<p class="about">事務員兼ハウスクリーナー<br>橋本祥子<br>ハウスクリーナーとして現場に出るだけでなく、雑工事や事務作業を元気にこなしてくれる、パワフルワーキングママ。</p>
 										</div>
 									</div>
 								</div>
@@ -207,8 +210,7 @@
 			</footer>
 
 
-		</div>
-		<!-- END fh5co-page -->
+		
 
 	</div>
 	<!-- END fh5co-wrapper -->
@@ -217,14 +219,10 @@
 
 
 	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
 	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
 	<!-- Superfish -->
 	<script src="js/hoverIntent.js"></script>
 	<script src="js/superfish.js"></script>
