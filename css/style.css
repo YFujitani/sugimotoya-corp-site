@@ -25,14 +25,14 @@ body.fh5co-offcanvas {
 }
 
 a {
-  color: #FCC72C;
+  color: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: none !important;
-  color: #FCC72C !important;
+  color: #fff !important;
 }
 
 .text-center > a {
@@ -915,15 +915,16 @@ figure {
   color: rgba(255, 255, 255, 0.4);
 }
 #offcanvas-menu ul li a:hover {
-  color: #FCC72C;
+  color: #fff;
 }
 #offcanvas-menu ul li > .fh5co-sub-menu {
   margin-top: 9px;
   padding-left: 20px;
 }
 #offcanvas-menu ul li.active > a {
-  color: #FCC72C;
+  color: #fff;
 }
+
 #offcanvas-menu ul .fh5co-sub-menu {
   display: block !important;
 }
