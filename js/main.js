@@ -143,17 +143,16 @@
 	});
 
 	{
-		
-	 const images = [
-		"url(images/keyvisual.JPG)",
-		"url(images/photographic_portrait.JPG)",
-		"url(images/portfolio_apartment_entrance.JPG)",
-	 ];
-	 let currentIndex =0;
 
-	const main = document.getElementById('main');
-	main.style.backgroundImage = images[currentIndex];
+	// TODO
+	$(document).ready(function () {
+		$('#bxslider').bxSlider({
+			mode: 'fade',
+			auto: 'auto',
+		});
+	});
 	
+
 }
 
 }());
