@@ -144,15 +144,14 @@
 
 	{
 
-	// TODO
 	$(document).ready(function () {
 		$('#bxslider').bxSlider({
 			mode: 'fade',
 			auto: 'auto',
+			controls: false,
+			pager: false,
 		});
 	});
-	
-
 }
 
 }());
