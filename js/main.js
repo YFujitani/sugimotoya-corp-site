@@ -142,16 +142,13 @@
 		googleMap();
 	});
 
-	{
-
-	$(document).ready(function () {
-		$('#bxslider').bxSlider({
-			mode: 'fade',
-			auto: 'auto',
-			controls: false,
-			pager: false,
-		});
-	});
-}
-
-}());
+	
+  // slideshow
+		$('#maximage').cycle({
+			cycleOptions: {
+				fx:'fade',
+				speed: 900,
+				timeout:3800
+			}
+		})
+		}());
