@@ -1,8 +1,5 @@
-;(function () {
-	
+(function () {
 	'use strict';
-
-
 
 	// iPad and iPod detection	
 	var isiPad = function(){
@@ -28,14 +25,10 @@
 			cssArrows: true,
 			disableHI: true
 		});
-
 	};
-
-
 
 	// Offcanvas and cloning of the main menu
 	var offcanvas = function() {
-
 		var $clone = $('#fh5co-menu-wrap').clone();
 		$clone.attr({
 			'id' : 'offcanvas-menu'
@@ -49,62 +42,45 @@
 
 		// click the burger
 		$('.js-fh5co-nav-toggle').on('click', function(){
-
 			if ( $('body').hasClass('fh5co-offcanvas') ) {
 				$('body').removeClass('fh5co-offcanvas');
 			} else {
 				$('body').addClass('fh5co-offcanvas');
 			}
-			// $('body').toggleClass('fh5co-offcanvas');
-
 		});
 
 		$('#offcanvas-menu').css('height', $(window).height());
-
 		$(window).resize(function(){
 			var w = $(window);
-
-
 			$('#offcanvas-menu').css('height', w.height());
-
 			if ( w.width() > 769 ) {
 				if ( $('body').hasClass('fh5co-offcanvas') ) {
 					$('body').removeClass('fh5co-offcanvas');
 				}
 			}
-
 		});	
-
 	}
-
-	
 
 	// Click outside of the Mobile Menu
 	var mobileMenuOutsideClick = function() {
-		$(document).click(function (e) {
+		$(document).click(function(e) {
 	    var container = $("#offcanvas-menu, .js-fh5co-nav-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
 	      if ( $('body').hasClass('fh5co-offcanvas') ) {
-				$('body').removeClass('fh5co-offcanvas');
-			}
+					$('body').removeClass('fh5co-offcanvas');
+				}
 	    }
 		});
 	};
 
-
 	// Animations
-
 	var contentWayPoint = function() {
 		var i = 0;
 		$('.animate-box').waypoint( function( direction ) {
-
 			if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-				
 				i++;
-
 				$(this.element).addClass('item-animate');
 				setTimeout(function(){
-
 					$('body .animate-box.item-animate').each(function(k){
 						var el = $(this);
 						setTimeout( function () {
@@ -112,12 +88,9 @@
 							el.removeClass('item-animate');
 						},  k * 200, 'easeInOutExpo' );
 					});
-					
 				}, 100);
-				
 			}
-
-		} , { offset: '85%' } );
+		}, { offset: '85%' } );
 	};
 
 	var googleMap = function() {
@@ -128,6 +101,16 @@
 		$('.google-map').css('height', height);
 	};
 
+	var slideshow = function() {
+		$('#jquery-cycle').cycle({
+			cycleOptions: {
+				fx: 'fade',
+				speed: 900,
+				timeout: 3800
+			}
+		});
+	};
+
 	// Document on load.
 	$(function(){
 		mainMenu();
@@ -135,20 +118,12 @@
 		mobileMenuOutsideClick();
 		contentWayPoint();
 		googleMap();
+		slideshow();
 	});
 
 	// Window on resize
 	$(window).on('resize', function() {
 		googleMap();
 	});
-
 	
-  // slideshow
-		$('#jquery-cycle').cycle({
-			cycleOptions: {
-				fx:'fade',
-				speed: 900,
-				timeout:3800
-			}
-		});
-		}());
+}());
