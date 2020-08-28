@@ -144,11 +144,11 @@
 
 	
   // slideshow
-		$('#maximage').cycle({
+		$('#jquery-cycle').cycle({
 			cycleOptions: {
 				fx:'fade',
 				speed: 900,
 				timeout:3800
 			}
-		})
+		});
 		}());
