@@ -1232,7 +1232,11 @@ p.access > a:hover {
   opacity: 0.5;
 }
 
-
+.disable-auto-tel a[href^="tel:"] {
+  color: inherit;
+  text-decoration: none;
+  pointer-events: none;
+}
 
 .sevice-list {
   margin-bottom: 1em;
