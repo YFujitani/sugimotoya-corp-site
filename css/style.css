@@ -1205,9 +1205,31 @@ figure {
   margin-bottom: 30px;
 }
 
+iframe {
+  margin-top: 90px;
+}
+
 .google-map {
   width: 600px;
   height: 450px;
+}
+
+.headline-access {
+  margin-top: 90px;
+}
+
+p.access {
+  margin-bottom: 0.5em;
+}
+
+p.access > a {
+  color: #848484;
+  text-decoration: none;
+}
+
+p.access > a:hover {
+  color: #848484!important;
+  opacity: 0.5;
 }
 
 .sevice-list {
