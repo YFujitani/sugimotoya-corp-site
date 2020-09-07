@@ -46,12 +46,17 @@ p, ul, ol {
   font-family: "Source Sans Pro", Arial, sans-serif;
 }
 
+ul {
+  padding-left: 0;
+}
+
 @media screen and (max-width: 480px) {
   p, ul, ol {
     font-size: 18px;
     line-height: 1.8;
   }
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   color: #5a5a5a;
@@ -284,6 +289,10 @@ figure {
 .menu li {
   display: inline;
   list-style: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu ul
 }
 
 #fh5co-header-section {
