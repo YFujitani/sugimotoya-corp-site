@@ -57,7 +57,11 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	
+
+	<!-- For slide show -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
 
 <body>
@@ -83,13 +87,18 @@
 						</div>
 					</div>
 				</header>
-
 			</div>
 
 
 			<div class="fh5co-hero">
 				<div class="fh5co-overlay"></div>
-				<div class="fh5co-cover" id="main"></div>
+				<div id="bxslider">
+					<div class="fh5co-cover"><img src="images/slide/Chikkun_wearing_glasses_resize_yokonaga.jpg" /></div>
+					<div class="fh5co-cover"><img src="images/slide/Hashimotosan_at_work_resize_yokonaga.jpg" /></div>
+					<div class="fh5co-cover"><img src="images/slide/Sugimotoya_staff_resize_yokonaga.jpg" /></div>
+					<div class="fh5co-cover"><img src="images/slide/Sugimotoya_woman_staff_resize_yokonaga.jpg" /></div>
+					<div class="fh5co-cover"><img src="images/slide/Takurasan_at_work_resize_yokonaga.jpg" /></div>
+				</div>
 			</div>
 		</div>
 		<!-- END fh5co-page -->
@@ -221,7 +230,7 @@
 	<!-- jQuery -->
 
 
-	<script src="js/jquery.min.js"></script>
+	<!-- <script src="js/jquery.min.js"></script> -->
 	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
