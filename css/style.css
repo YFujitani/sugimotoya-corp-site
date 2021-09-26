@@ -1253,6 +1253,27 @@ p.access > a:hover {
   }
 }
 
+.introduction-logo {
+  position: relative;
+  height: 1550px;
+}
+
+@media screen and (max-width: 768px) {
+  .introduction-logo {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .introduction-logo {
+    height: calc(0.27272 * 100vw);
+  }
+}
+
+.ceo-message {
+  margin-top: 100px;
+}
+
 .renovation-proposal {
   text-align: center;
   margin: 40px 0;
