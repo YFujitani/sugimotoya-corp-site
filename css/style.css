@@ -1260,13 +1260,7 @@ p.access > a:hover {
 
 @media screen and (max-width: 768px) {
   .introduction-logo {
-    height: 200px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .introduction-logo {
-    height: calc(0.27272 * 100vw);
+    height: 100vw;
   }
 }
 
