@@ -1255,12 +1255,19 @@ p.access > a:hover {
 
 .introduction-logo {
   position: relative;
-  height: 1550px;
 }
 
 @media screen and (max-width: 768px) {
   .introduction-logo {
-    height: 100vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .introduction-logo-container {
+    height: 500px;
+  }
+  .introduction-logo {
+    height: 480px;
   }
 }
 

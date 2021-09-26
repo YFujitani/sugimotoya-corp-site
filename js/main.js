@@ -120,6 +120,11 @@
 		} , { offset: '85%' } );
 	};
 
+	var introductionLogo = function() {
+		if (screen.width > 768) return;
+		$('.introduction-logo').css('background-image', 'url(images/introduction_5.png)')
+	};
+
 	var googleMap = function() {
 		if (screen.width > 768) return;
 		var width = screen.width * 0.9;
@@ -134,6 +139,7 @@
 		offcanvas();
 		mobileMenuOutsideClick();
 		contentWayPoint();
+		introductionLogo();
 		googleMap();
 	});
 
