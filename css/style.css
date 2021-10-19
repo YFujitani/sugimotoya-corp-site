@@ -11,6 +11,8 @@
 *	Edit this section
 *
 * ======================================================= */
+-webkit-transform-style: preserve-3d;
+
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   line-height: 1.8;
@@ -1299,4 +1301,9 @@ p.access > a:hover {
   color: #ff00008c;
   font-weight: bold;
   padding: 0px;
+}
+
+#main {
+  transition: background-image 2.5s ease;
+  background-image: url(../images/keyvisual.JPG);
 }
