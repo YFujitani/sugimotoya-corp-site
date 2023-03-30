@@ -1300,3 +1300,17 @@ p.access > a:hover {
   font-weight: bold;
   padding: 0px;
 }
+
+/* for slide */
+#bxslider > div {
+  display: none;
+  position: initial !important;
+}
+
+#bxslider > div > img {
+  width: 100%;
+}
+
+.bx-wrapper {
+  border: none !important;
+}
